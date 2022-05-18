@@ -1,0 +1,16 @@
+
+# server properties
+server:
+ port: 8761
+
+# spring properties
+spring:
+ application:
+  name: EUREKA-SERVER
+  
+#Eureka client
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
